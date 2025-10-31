@@ -102,6 +102,9 @@ class SiteInfoAgent(AgentModule):
             else:
                 self.log.warn(f"     No CE object found for queue {queue}")
 
+
+
+
         self.log.always("\n=== [SiteInfoAgent] Cycle complete ===")
         return S_OK()
 
