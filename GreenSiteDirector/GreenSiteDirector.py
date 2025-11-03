@@ -49,7 +49,7 @@ from DIRAC.WorkloadManagementSystem.Utilities.QueueUtilities import getQueuesRes
 MAX_PILOTS_TO_SUBMIT = 100
 
 
-class SiteDirector(AgentModule):
+class GreenSiteDirector(AgentModule):
     """SiteDirector class provides an implementation of a DIRAC agent.
 
     Used for submitting pilots to Computing Elements.
